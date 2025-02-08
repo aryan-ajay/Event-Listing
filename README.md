@@ -3,8 +3,6 @@
 ## 📌 Overview
 This project is a React-based web application that displays upcoming events in Sydney. Users can search for events, view details, and proceed to get tickets by entering their email.
 
-## 🌐 Live Web Link
-[Insert Deployed Web Link Here]
 
 ## 📁 Repository Structure
 ```
@@ -12,7 +10,6 @@ This project is a React-based web application that displays upcoming events in S
 ├── src/                 # Source code
 │   ├── components/      # Reusable components (if applicable)
 │   ├── App.js           # Main component
-│   ├── Event.css        # Stylesheet
 │   ├── index.js         # Entry point
 ├── .gitignore           # Git ignored files
 ├── package.json         # Dependencies and scripts
@@ -26,18 +23,14 @@ This project is a React-based web application that displays upcoming events in S
 
 ### Installation
 ```sh
-# Clone the repository
-git clone [GitHub Repo URL]
-cd event-listing-app
-
 # Install dependencies
 npm install
 
 # Start the development server
-npm run dev
+npm start
 ```
 
-Open `http://localhost:5173` in the browser.
+Open `http://localhost:3000` in the browser.
 
 ## ✨ Features
 - **Event Filtering:** Search for events by title.
