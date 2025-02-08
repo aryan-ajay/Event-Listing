@@ -3,6 +3,7 @@
 ## 📌 Overview
 This project is a React-based web application that displays upcoming events in Sydney. Users can search for events, view details, and proceed to get tickets by entering their email.
 
+![Image](https://github.com/user-attachments/assets/77b4bece-69ce-45f9-84a4-53685d0fed25)
 
 ## 📁 Repository Structure
 ```
