@@ -1,60 +1,70 @@
-# Event Listing Web Application
+# Getting Started with Create React App
 
-## 📌 Overview
-This project is a React-based web application that displays upcoming events in Sydney. Users can search for events, view details, and proceed to get tickets by entering their email.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Image](https://github.com/user-attachments/assets/77b4bece-69ce-45f9-84a4-53685d0fed25)
+## Available Scripts
 
-## 📁 Repository Structure
-```
-├── public/              # Public assets
-├── src/                 # Source code
-│   ├── components/      # Reusable components (if applicable)
-│   ├── App.js           # Main component
-│   ├── index.js         # Entry point
-├── .gitignore           # Git ignored files
-├── package.json         # Dependencies and scripts
-├── README.md            # Project documentation
-```
+In the project directory, you can run:
 
-## 🛠 Setup Instructions
-### Prerequisites
-- Node.js (v16+ recommended)
-- npm or yarn
+### `npm start`
 
-### Installation
-```sh
-# Install dependencies
-npm install
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Start the development server
-npm start
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Open `http://localhost:3000` in the browser.
+### `npm test`
 
-## ✨ Features
-- **Event Filtering:** Search for events by title.
-- **Event Details:** Displays event title, date, venue, and description.
-- **Ticket Purchase Modal:** Users enter their email before redirecting to the ticket page.
-- **Modern UI:** Styled with CSS for an elegant and responsive layout.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🔥 Technologies Used
-- React (Vite setup)
-- CSS (custom styling)
-- JavaScript (ES6+ features)
+### `npm run build`
 
-## 🏆 Approach
-- Implemented a **searchable event list** to enhance user experience.
-- Used **React state management** for dynamic filtering and modal interactions.
-- Styled the application with **modern and minimalistic UI**.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🚧 Challenges Faced
-- Ensuring smooth **search filtering** without performance issues.
-- Handling **modal interactions** efficiently.
-- Creating a **responsive layout** that looks good across devices.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 📌 Future Improvements
-- Implement **event categories and filters** (e.g., music, sports, comedy).
-- Add **backend integration** to fetch live event data.
-- Implement **user authentication** for personalized recommendations.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
